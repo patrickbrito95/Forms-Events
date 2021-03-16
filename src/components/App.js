@@ -22,7 +22,7 @@ class App extends React.Component {
     return (
       <div className="ui container">
         <SearchBar onSubmit={this.onSearchSubmit} />
-        Foram encontrados: {this.state.images.length} imagens
+        Foram encontradas: {this.state.images.length} imagens
         <ImagesList images={this.state.images} />
       </div>
     );
